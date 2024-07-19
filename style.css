@@ -139,7 +139,7 @@
     align-items: center;
 }
 .mainsection{
-     margin-left: auto !important;
+     /* margin-left: auto !important; */
      margin-right: auto !important;
      padding-block: 60px;
 }
@@ -369,6 +369,7 @@
     font-weight: 700;
     border-radius: 12px;
     text-align: center;
+    margin-bottom: 20px;
 }
 @media (min-width:320px) and (max-width:480px){
     .header{
@@ -377,7 +378,7 @@
     }
     .logo img{
         width:90px;
-        margin-left: 50px;
+        margin-left: 30px;
     }
     .profile-btn a{
         font-size: 10px;
@@ -409,4 +410,89 @@
     .las_sec,.las_sec1{
         width:120px;
     }
+}
+@media (min-width:481px) and (max-width:840px){
+    .header{
+        grid-column-gap:18px;
+        grid-row-gap:18px;
+    }
+    .logo img{
+        width:120px;
+        margin-left: -40px;
+    }
+    .profile-btn a{
+        font-size: 10px;
+    }
+    .profilelink{
+        margin-left: 220px;
+    }
+    .section{
+        margin-inline: -80px;
+    }
+    .menubar{
+        display: none;
+    }
+    .sidebar-content{
+        display: none; 
+    }
+    .head1 h1{
+        font-size: 36px;
+    }
+    .art-sec{
+        width:390px;
+    }
+    .art-sec a{
+        top:150px;
+    }
+    .art1{
+        width:220px;
+    }
+    .low,.low1{
+        width:240px;
+    }
+    .las_sec,.las_sec1{
+        width:220px;
+    }
+}
+@media (min-width:841px) and (max-width:1024px){
+    .section{
+        margin-inline: 30px;
+    }
+    .art-sec{
+        width:400px;
+    }
+    .art1{
+        width:160px;
+    }
+    .low,.low1{
+        width:260px;
+    }
+    .las_sec,.las_sec1{
+        width:240px;
+    }
+
+}
+@media (min-width:1025px) and (max-width:1450px){
+    .logo img{
+        width:120px;
+    }
+    .sidebar-menu{
+        margin-left: -60px;
+    }
+    .content-section{
+        margin-right: 40px;
+    }
+    .art-sec{
+        width:530px;
+    }
+    .art1{
+        width:190px;
+    }
+    .low,.low1{
+        width:260px;
+    }
+    .las_sec,.las_sec1{
+        width:240px;
+    }
+
 }
