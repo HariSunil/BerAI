@@ -370,3 +370,43 @@
     border-radius: 12px;
     text-align: center;
 }
+@media (min-width:320px) and (max-width:480px){
+    .header{
+        grid-column-gap:12px;
+        grid-row-gap:12px;
+    }
+    .logo img{
+        width:90px;
+        margin-left: 50px;
+    }
+    .profile-btn a{
+        font-size: 10px;
+    }
+    .menubar{
+        display: none;
+    }
+    .sidebar-content{
+        display: none;
+    }
+    .content-section{
+        padding-left: 30px;
+    }
+    .head1 h1{
+        font-size: 36px;
+    }
+    .art-sec{
+        width:130px;
+    }
+    .art-sec a{
+        top:90px;
+    }
+    .art1{
+        width:130px;
+    }
+    .low,.low1{
+        width:125px;
+    }
+    .las_sec,.las_sec1{
+        width:120px;
+    }
+}
