@@ -383,11 +383,11 @@
         grid-row-gap:12px;
     }
     .logo img{
-        width:90px;
-        margin-left: 30px;
+        width:80px;
+        margin-left: 60px;
     }
     .profile-btn a{
-        font-size: 16px;
+        font-size: 13px;
     }
     .menubar{
         display: none;
@@ -481,9 +481,10 @@
 @media (min-width:1025px) and (max-width:1450px){
     .logo img{
         width:120px;
+        margin-left: 35px;
     }
     .sidebar-menu{
-        margin-left: -60px;
+        margin-left: -20px; 
     }
     .content-section{
         margin-right: 40px;
