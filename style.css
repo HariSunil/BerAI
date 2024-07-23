@@ -65,20 +65,23 @@
     background-color: #000;
     border-radius: 13px;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 14px;
     font-family: 'regular';
     border: 2px solid #000;
-    padding: 8px 16px;
+    padding: 8px 12px;
 }
 .menulink{
     color:#66758a;
-    border-radius: 12px;
-    padding: 8px 18px;
-    font-size: 16px;
+    border-radius: 14px;
+    padding: 10px 16px;
+    font-size: 14px;
     font-weight: 500;
     font-family: 'regular';
     transition: all ease .4s;
     text-decoration: none;
+}
+#a-rt{
+    margin-left: 4px;
 }
 .menulink:hover{
     color:#fff;
@@ -112,8 +115,8 @@
     cursor: pointer;
     border-radius: 10px;
     padding-block:20px;
-    padding-inline:20px ;
-    margin-left: 10px;
+    padding-inline: 20px;
+    margin-left: 8px;
 }
 .profile-btn a{
     text-decoration: none;
@@ -367,11 +370,11 @@
 }
 @media (min-width:320px) and (max-width:480px){
     .head{
-        margin-left: 15px; 
+        margin-left: 18px; 
     }
     .logo img{
-        width:135px;
-        height:65px;
+        width:120px;
+        height:45px;
     }
     .profile-img img{
         width:65px;
@@ -379,6 +382,11 @@
     }
     .profilelink{
           margin-left: 15px;  
+    }
+    .profile-btn{
+        padding-block:22px;
+        padding-inline:14px;
+        margin-left: 14px;
     }
     .content-section{
          margin-inline: 5px;
