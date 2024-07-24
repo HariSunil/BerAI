@@ -383,9 +383,6 @@
     margin-bottom: 20px;
 }
 @media (min-width:320px) and (max-width:480px){
-    .head{
-        margin-left: 24px; 
-    }
     .logo img{
         width:125px;
         height:45px;
@@ -393,14 +390,16 @@
     .profile-img img{
         width:60px;
         height:60px;
+        margin-left: -10px;
     }
     .profilelink{
           margin-left: 20px;  
     }
     .profile-btn{
-        padding-block:20px;
-        padding-inline:6px;
-        margin-left: 14px;
+        padding-block:28px;
+        padding-inline:2px;
+        margin-left: 4px;
+        margin-top: 22px;
     }
     .content-section{
          margin-inline: 5px;
@@ -409,7 +408,9 @@
         margin-inline: 10px;
     }
     .profile-btn a{
-        font-size: 18px;
+        font-size: 16px;
+        left:4px;
+        bottom:12px;
     }
     .sport,.sport1{
          margin-inline: 10px;
@@ -465,12 +466,13 @@
     .logo img{
         width:160px;
         height:55px;
+        margin-left: -20px;
     }
     .profile-btn a{
         font-size: 16px;
     }
     .profilelink{
-        margin-left: 225px;
+        margin-left: 200px;
     }
     .profile-img img{
         width:60px;
@@ -514,7 +516,7 @@
 @media (min-width:841px) and (max-width:1024px){
     .logo img{
         width:160px;
-        margin-left: 60px;
+        margin-left: 50px;
     }
     .section{
         margin-inline: 40px;
@@ -523,7 +525,11 @@
         width:400px;
     }
     .art1{
-        width:160px;
+        width:190px;
+    }
+    .head{
+        margin-left: 50px;
+        margin-right: 140px;
     }
     .low,.low1{
         width:260px;
@@ -531,18 +537,22 @@
     .las_sec,.las_sec1{
         width:240px;
     }
-    .profilelink{
-        margin-left: -120px;
-    }
     .menubar{
         margin-left: 140px;
+    }
+    .sidebar-menu{
+        margin-left: 40px;
+    }
+    #m4{
+        font-size: 14px;
+        margin-top: 6px;
     }
 
 }
 @media (min-width:1025px) and (max-width:1450px){
     .logo img{
         width:120px;
-        margin-left: 10px;
+        margin-left: -10px;
     }
     .sidebar-menu{
         margin-left: -20px; 
