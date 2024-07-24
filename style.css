@@ -203,16 +203,16 @@
 }
 #m1{
     margin-left: 10px; 
-    margin-top: 4px;
-    font-size: 24px;
+    margin-top: 2px;
+    font-size: 20px;
     font-family: 'bold';
     font-weight: 700;
     color:#000;
 }
 #m2,#m3,#m4,#m5,#m6{
     margin-left: 10px; 
-    margin-top: 4px;
-    font-size: 20px;
+    margin-top: 2px;
+    font-size: 18px;
     font-family: 'regular';
     font-weight: 600;
     color:rgb(115,128,148);
