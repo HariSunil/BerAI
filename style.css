@@ -41,6 +41,7 @@
 }
 .head{
     display: flex;
+    justify-content:space-evenly;
 }
 .logo img{
     width:160px;
@@ -233,9 +234,10 @@
     font-weight: 800;
 }
 .head1 p{
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'regular';
     color:#66758a;
+    margin-left: 10px;
 }
 .m-sec{
     display:flex;
@@ -292,14 +294,16 @@
 .h-ead h2{
     margin-top: 20px;
     margin-bottom: 10px;
+    margin-left: 6px;
     font-family: 'inter-bold';
     font-size: 34px;
     font-weight: 800;
 }
 .h-ead p{
     font-family: 'regular';
-    font-size: 16px;
+    font-size: 18px;
     color:#66758a;
+    margin-left: 8px;
 }
 .last-section{
     display:flex;
@@ -564,7 +568,7 @@
     .logo img{
         width:120px;
         height:42px;
-        margin-left: 10px;
+        margin-left: 8px;
         margin-top: 26px;
     }
     .sidebar-menu{
@@ -575,10 +579,10 @@
         margin-left: 40px;
     }
     .art-sec{
-        width:530px;
+        width:540px;
     }
     .art1{
-        width:190px;
+        width:215px;
     }
     .low,.low1{
         width:260px;
@@ -612,6 +616,9 @@
     .profile-btn a{
         font-size: 12px;
         left:3px;
+    }
+    .menubar{
+        margin-top: 22px;
     }
 
 }
