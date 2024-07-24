@@ -560,3 +560,28 @@
     }
 
 }
+@media (min-width:1451px){
+    .logo img{
+        width:120px;
+        margin-left: 10px;
+    }
+    .sidebar-menu{
+        margin-left: -20px; 
+    }
+    .content-section{
+        margin-left: 40px;
+    }
+    .art-sec{
+        width:530px;
+    }
+    .art1{
+        width:190px;
+    }
+    .low,.low1{
+        width:260px;
+    }
+    .las_sec,.las_sec1{
+        width:240px;
+    }
+
+}
