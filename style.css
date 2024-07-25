@@ -409,7 +409,10 @@
           margin-left: -80px;
     }
     .low{
-         margin-left: -80px;
+         margin-left: -70px;
+    }
+    .low1{
+        margin-left: -15px;
     }
     .profile-btn a{
         font-size: 16px;
@@ -431,7 +434,7 @@
          margin-left: -80px; 
     }
     .art-sec{
-        width:210px;
+        width:200px;
         margin-left: -120px;
     }
     .art-sec a{
@@ -441,7 +444,7 @@
         padding-top: 40px;
     }
     .art1{  
-        width:174px;
+        width:164px;
     }
     #circle{
         display: none;
@@ -459,7 +462,7 @@
         padding: 8px 10px;
     }
     .low,.low1{
-        width:190px;
+        width:180px;
         height:175px;
     }
     .las_sec,.las_sec1{
@@ -473,6 +476,7 @@
     }
     .content-grid{
         margin-inline: -20px;
+        padding-inline: -20px;
     }
     .head{
         justify-content: space-around;
