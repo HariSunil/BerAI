@@ -381,6 +381,7 @@
     border-radius: 12px;
     text-align: center;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 @media (min-width:320px) and (max-width:480px){
     .container{
