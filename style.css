@@ -392,7 +392,6 @@
     .logo img{
         width:125px;
         height:45px;
-        margin-left:80px;
     }
     .profile-img img{
         width:60px;
@@ -409,10 +408,10 @@
         margin-top: 22px;
     }
     .h-ead{
-          margin-left: -30px;
+          margin-left: -80px;
     }
     .low{
-        margin-left: -25px;
+        margin-left: -80px;
     }
     .profile-btn a{
         font-size: 16px;
@@ -427,21 +426,21 @@
     }
     .head1 h1{
         font-size: 36px;
-        margin-left: -30px;
+        margin-left: -80px;
     }
     .head1 p{
         font-size: 15px;
-        margin-left: -30px;
+        margin-left: -80px;
     }
     .art-sec{
-        width:195px;
-        margin-left: -30px;
+        width:200px;
+        margin-left: -120px;
     }
     .art-sec a{
         top:90px;
     }
     .art1{
-        width:175px;
+        width:180px;
     }
     #circle{
         display: none;
@@ -450,23 +449,23 @@
         background-color:#fff;
     }
     .para,.para1{
-        margin-left: -25px;
+        margin-left: -75px;
         font-size: 14px;
     }
     .btn{
-        margin-left:-25px;
+        margin-left:-75px;
         font-size: 16px;
         padding: 8px 10px;
     }
     .low,.low1{
-        width:175px;
-        height:160px;
+        width:180px;
+        height:165px;
     }
     .las_sec,.las_sec1{
         width:155px;
     }
     .sport,.sport1{
-         margin-left: -25px; 
+         margin-left: -75px; 
     }
 }
 @media (min-width:481px) and (max-width:840px){
