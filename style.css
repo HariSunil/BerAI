@@ -383,10 +383,16 @@
     margin-bottom: 20px;
 }
 @media (min-width:320px) and (max-width:480px){
+    .sub-container{
+        margin-inline: 10px;
+    }
+    .head{
+        margin-left: -20px;
+    }
     .logo img{
         width:125px;
         height:45px;
-        /* margin-left: 80px; */
+        margin-left:-10px;
     }
     .profile-img img{
         width:60px;
@@ -403,10 +409,10 @@
         margin-top: 22px;
     }
     .h-ead{
-          margin-left: -64px;
+          margin-left: -90px;
     }
     .low{
-        margin-left: -74px;
+        margin-left: -90px;
     }
     .profile-btn a{
         font-size: 16px;
@@ -421,15 +427,15 @@
     }
     .head1 h1{
         font-size: 36px;
-        margin-left: -68px;
+        margin-left: -90px;
     }
     .head1 p{
         font-size: 15px;
-        margin-left: -64px;
+        margin-left: -90px;
     }
     .art-sec{
         width:195px;
-        margin-left: -70px;
+        margin-left: -90px;
     }
     .art-sec a{
         top:90px;
@@ -444,11 +450,11 @@
         background-color:#fff;
     }
     .para,.para1{
-        margin-left: -64px;
+        margin-left: -90px;
         font-size: 14px;
     }
     .btn{
-        margin-left:-64px;
+        margin-left:-90px;
         font-size: 16px;
         padding: 8px 10px;
     }
@@ -460,7 +466,7 @@
         width:155px;
     }
     .sport,.sport1{
-         margin-left: -70px; 
+         margin-left: -90px; 
     }
 }
 @media (min-width:481px) and (max-width:840px){
