@@ -386,14 +386,15 @@
     .logo img{
         width:125px;
         height:45px;
+        /* margin-left: 80px; */
     }
     .profile-img img{
         width:60px;
         height:60px;
-        margin-left: -10px;
+        margin-left: -20px;
     }
     .profilelink{
-          margin-left: 20px;  
+          margin-left: 5px;
     }
     .profile-btn{
         padding-block:28px;
@@ -401,19 +402,16 @@
         margin-left: 4px;
         margin-top: 22px;
     }
-    .content-section{
-         margin-inline: 5px;
+    .h-ead{
+          margin-left: -64px;
     }
-    .last-section{
-        margin-inline: 10px;
+    .low{
+        margin-left: -74px;
     }
     .profile-btn a{
         font-size: 16px;
         left:4px;
         bottom:12px;
-    }
-    .sport,.sport1{
-         margin-inline: 10px;
     }
     .menubar{
         display: none;
@@ -423,43 +421,46 @@
     }
     .head1 h1{
         font-size: 36px;
+        margin-left: -68px;
     }
     .head1 p{
         font-size: 15px;
+        margin-left: -64px;
     }
     .art-sec{
-        width:165px;
+        width:195px;
+        margin-left: -70px;
     }
     .art-sec a{
         top:90px;
     }
     .art1{
-        width:168px;
+        width:175px;
     }
     #circle{
-        left:20px;
+        display: none;
     }
     .dot{
         background-color:#fff;
     }
     .para,.para1{
-        margin-left: 10px;
-        font-size: 16px;
+        margin-left: -64px;
+        font-size: 14px;
     }
     .btn{
-        margin-left:10px;
+        margin-left:-64px;
         font-size: 16px;
         padding: 8px 10px;
     }
     .low,.low1{
-        width:160px;
-        height:190px;
+        width:175px;
+        height:160px;
     }
     .las_sec,.las_sec1{
         width:155px;
     }
-    .last-section{
-        margin-inline: 5px;
+    .sport,.sport1{
+         margin-left: -70px; 
     }
 }
 @media (min-width:481px) and (max-width:840px){
