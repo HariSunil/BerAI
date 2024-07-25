@@ -383,7 +383,10 @@
     margin-bottom: 20px;
 }
 @media (min-width:320px) and (max-width:480px){
-    .sub-container{
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin-inline: 10px;
     }
     .m-sec{
@@ -437,10 +440,13 @@
         margin-left: -120px;
     }
     .art-sec a{
-        top:90px;
+        top:100px;
     }
-    .art1{
-        width:180px;
+    .content-art {
+        padding-top: 40px;
+    }
+    .art1{  
+        width:174px;
     }
     #circle{
         display: none;
@@ -458,7 +464,7 @@
         padding: 8px 10px;
     }
     .low,.low1{
-        width:180px;
+        width:184px;
         height:165px;
     }
     .las_sec,.las_sec1{
